@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.navbar {
+  background-color: #232F72 ;
+  font-family: 'Poppins', sans-serif;
+  padding: 14px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+}
+
+.navbar-brand {
+  color: #ffffff ;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-link {
+  color: #e8ecff ;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 18px;
+  transition: 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #3fb8af ;
+  transform: translateY(-2px);
+}
+
+.navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+body {
+  background-color: #6F9FD8 ;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff ;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+#tabela-clientes {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#tabela-clientes th {
+  background-color: #293789;
+  color: #080B1F;
+}
+
+#tabela-clientes td {
+  background-color: #8093fd;
+  color: #080B1F;
+}
+
+#tabela-clientes tr:hover td {
+  background-color: #3b4993;
+}
+
+#tabela-clientes,
+#tabela-clientes th,
+#tabela-clientes td {
+  border: none;
+}
+
+#tabela-clientes {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+}
+
+#tabela-clientes th,
+#tabela-clientes td {
+  border: none;
+}
